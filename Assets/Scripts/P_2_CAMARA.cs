@@ -12,7 +12,7 @@ public class P_2_CAMARA : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        jugardor = GameObject.Find("Cube").transform; //Find encuentra la etiqueta a la que la camara seguira
+        jugardor = GameObject.Find("Player").transform; //Find encuentra la etiqueta a la que la camara seguira
     }
 
     // Update is called once per frame
